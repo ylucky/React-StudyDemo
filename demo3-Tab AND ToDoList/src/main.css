@@ -1,0 +1,48 @@
+*{
+	margin:0;
+	padding:0;
+}
+h2{
+	text-align: left;
+}
+/*Tab*/
+.tab{
+	width: 300px;
+	margin:0 auto;
+}
+.tab span{
+	padding: 3px 5px;
+	margin-right:5px;
+	cursor: pointer;
+}
+.tab .current{
+	color:#fff;
+	background-color: #67DDE9;
+}
+.tab .content{
+	max-width: 300px;
+	min-height: 100px;
+	border:solid 1px #67DDE9;
+}
+
+/* todoList */
+.todoList{
+	width: 300px;
+	margin:0 auto;
+	text-align: center;
+}
+.todoList button{
+	background-color: #67DDE9;
+	color:#fff;
+	width: 70%;
+	border:none;
+}
+.todoList li{
+	height: 30px;
+	line-height: 30px;
+	cursor: pointer;
+	background-color: #cdcdcd;
+	color:#000;
+	margin-top: 5px;
+	list-style: none;
+}
